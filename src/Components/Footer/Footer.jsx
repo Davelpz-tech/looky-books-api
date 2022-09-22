@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <div className="footer-wrapper">
         <div className="top">
-          <Link to="/looky-books-api">
+          <Link to="/">
             <img src={lookyLogo} alt="" style={{ height: "50px" }} />
           </Link>
         </div>
@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="left">
             <h3>Navigation</h3>
             <ul>
-              <Link to="/looky-books-api">Home</Link>
+              <Link to="/">Home</Link>
               <Link to="/contact">Contact</Link>
             </ul>
           </div>

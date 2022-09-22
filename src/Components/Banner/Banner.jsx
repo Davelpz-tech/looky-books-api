@@ -1,5 +1,6 @@
 import React from "react";
 import "./Banner.scss";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -17,8 +18,8 @@ const Banner = () => {
             information
           </p>
           <div className="btn-container">
-            <button>my portfolio</button>
-            <button className="outline">download CV</button>
+            <a href="https://davelpz-tech.github.io/portfolio-david/" target="_blank"><button>my portfolio</button></a>
+            <Link to="../../assets/David_CV.pdf" target="_blank" download><button className="outline">download CV</button></Link>
           </div>
         </div>
         <img src="https://source.unsplash.com/v8DSLoY80Xk" alt="" />

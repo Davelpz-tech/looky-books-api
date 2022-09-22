@@ -27,8 +27,7 @@ const ContactPage = () => {
   return (
     <>
       <div className="contact-wrapper">
-        <h1>EmailJS SDK Name Changed, working on bugs to get this component live again, please follow this link...</h1>
-        <a href="https://davelpz-tech.github.io/portfolio-david/">My Portfolio</a>
+        <h1>EmailJS SDK Name Changed, working on bugs to get this component live again, please follow this link: <a style={{color: "#3CC37E"}} href="https://davelpz-tech.github.io/portfolio-david/">My Portfolio</a></h1>
         {/* <form ref={formRef} onSubmit={handleSubmit} className="form-wrapper">
           <h1>Contact Me</h1>
           <p>
