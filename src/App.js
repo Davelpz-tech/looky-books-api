@@ -9,7 +9,7 @@ export default function App() {
     <>
       <div className="App">
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/looky-books-api" element={<HomePage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </div>

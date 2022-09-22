@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <div className="footer-wrapper">
         <div className="top">
-          <Link to="/">
+          <Link to="/looky-books-api">
             <img src={lookyLogo} alt="" style={{ height: "50px" }} />
           </Link>
         </div>
@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="left">
             <h3>Navigation</h3>
             <ul>
-              <Link to="/">Home</Link>
+              <Link to="/looky-books-api">Home</Link>
               <Link to="/contact">Contact</Link>
             </ul>
           </div>
@@ -24,7 +24,7 @@ const Footer = () => {
             <h3>Contact</h3>
             <a mailto="davelpz15@gmail.com">davelpz15@gmail.com</a>
             <p>602-350-9341</p>
-            <a href="https://heroku.com">Visit my Site</a>
+            <a href="https://davelpz-tech.github.io/portfolio-david/">Visit my Site</a>
           </div>
         </div>
         <div className="line"></div>

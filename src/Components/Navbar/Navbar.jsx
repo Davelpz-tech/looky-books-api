@@ -8,13 +8,13 @@ const Navbar = () => {
     <>
       <div className="nav-wrapper">
         <div className="left">
-          <Link to="/">
+          <Link to="/looky-books-api">
             <img src={lookyLogo} alt="" style={{ height: "50px" }} />
           </Link>
         </div>
         <div className="middle"></div>
         <div className="right">
-          <Link to="/">
+          <Link to="/looky-books-api">
             <button>Home</button>
           </Link>
           <Link to="/contact">
