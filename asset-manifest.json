@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/looky-books-api/static/css/main.7cd4a6fe.css",
-    "main.js": "/looky-books-api/static/js/main.1580bc55.js",
+    "main.js": "/looky-books-api/static/js/main.76fa4da9.js",
     "static/media/remina.jpg": "/looky-books-api/static/media/remina.d8f5f26f35c4b5230b10.jpg",
     "static/media/lookylogodarkalt.svg": "/looky-books-api/static/media/lookylogodarkalt.656849ac6b1ebcdbb8341d04c2f70ca1.svg",
     "static/media/lovecraft.jpg": "/looky-books-api/static/media/lovecraft.9ef08f8378e6ad6fbd70.jpg",
     "static/media/butterflygarden.jpg": "/looky-books-api/static/media/butterflygarden.c656a1b8418e5fabe8f7.jpg",
     "index.html": "/looky-books-api/index.html",
     "main.7cd4a6fe.css.map": "/looky-books-api/static/css/main.7cd4a6fe.css.map",
-    "main.1580bc55.js.map": "/looky-books-api/static/js/main.1580bc55.js.map"
+    "main.76fa4da9.js.map": "/looky-books-api/static/js/main.76fa4da9.js.map"
   },
   "entrypoints": [
     "static/css/main.7cd4a6fe.css",
-    "static/js/main.1580bc55.js"
+    "static/js/main.76fa4da9.js"
   ]
 }
