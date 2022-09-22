@@ -1,0 +1,33 @@
+@import '../../styles.scss';
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  padding: 1rem 5%;
+  background-color: $bgColorAccent;
+  .left {
+    span {
+      color: $primaryColor;
+    }
+  }
+  .middle {
+    i {
+      font-size: 2em;
+    }
+  }
+  .right {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-wrapper {
+    flex-direction: column;
+    align-items: center;
+    .right {
+      display: none;
+    }
+  }
+}

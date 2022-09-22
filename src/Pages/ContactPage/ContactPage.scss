@@ -1,0 +1,45 @@
+@import '../../styles.scss';
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: $bgColorAccent;
+    transition: .2s ease-in-out;
+    gap: 1rem;
+    width: 600px;
+    padding: 2rem 3rem;
+    border-radius: .5em;
+    input {
+      border: none;
+      background-color: $bgColor;
+      padding: 1rem;
+      border-radius: .5em;
+    }
+    textarea {
+      border: none;
+      background-color: $bgColor;
+      resize: none;
+      border-radius: 0.5em;
+      padding: 1rem;
+    }
+    button {
+      height: 3rem;
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contact-wrapper {
+    margin: 1rem 0;
+    .form-wrapper {
+      width: 100%;
+    }
+  }
+}

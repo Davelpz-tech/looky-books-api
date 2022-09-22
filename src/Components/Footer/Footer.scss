@@ -1,0 +1,44 @@
+@import '../../styles.scss';
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: $bgColorAccent;
+  padding: 1% 5%;
+  gap: 1rem;
+  .top {
+    h1 {
+      width: min-content;
+      cursor: pointer;
+    }
+    span {
+      color: $primaryColor;
+    }
+  }
+  .middle {
+    display: flex;
+    justify-content: space-between;
+    .left {
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+    .right {
+      text-align: right;
+    }
+  }
+  .line {
+    width: 100%;
+    border-bottom: 1px solid white;
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    .right {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}
