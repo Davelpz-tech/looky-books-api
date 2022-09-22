@@ -1,33 +1,35 @@
 import { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 import "./ContactPage.scss";
 
 const ContactPage = () => {
-  const formRef = useRef();
-  const [done, setDone] = useState(false);
-  const handleSubmit = (e) => {
-    emailjs
-      .sendForm(
-        "service_7j3ie3w",
-        "template_89bdzaj",
-        formRef.current,
-        "fc5WnmdQW9mqsYcP7"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setDone(true);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  // const formRef = useRef();
+  // const [done, setDone] = useState(false);
+  // const handleSubmit = (e) => {
+  //   emailjs
+  //     .sendForm(
+  //       "service_7j3ie3w",
+  //       "template_89bdzaj",
+  //       formRef.current,
+  //       "fc5WnmdQW9mqsYcP7"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         setDone(true);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
   return (
     <>
       <div className="contact-wrapper">
-        <form ref={formRef} onSubmit={handleSubmit} className="form-wrapper">
+        <h1>EmailJS SDK Name Changed, working on bugs to get this component live again, please follow this link...</h1>
+        <a href="https://davelpz-tech.github.io/portfolio-david/">My Portfolio</a>
+        {/* <form ref={formRef} onSubmit={handleSubmit} className="form-wrapper">
           <h1>Contact Me</h1>
           <p>
             I'd love to work for you!
@@ -55,7 +57,7 @@ const ContactPage = () => {
           ></textarea>
           <button>Send</button>
           {done && " Message sent, I'll be in touch soon!"}
-        </form>
+        </form> */}
       </div>
     </>
   );
